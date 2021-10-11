@@ -2,6 +2,9 @@
   "name": "shorty-js",
   "version": "1.0.0",
   "description": "Javascript one-line functions",
+  "repository": {
+    "url": "https://github.com/ZviksZ/-shorty"
+  },
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
