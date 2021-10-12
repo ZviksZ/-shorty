@@ -1,7 +1,5 @@
-export default class Arrays {
-  randomArrayItem(arr: Array<any>) {
-    return arr[Math.floor(Math.random() * arr.length)]
-  }
+const randomArrayItem = <T>(collection: Array<T>) => collection[Math.floor(Math.random() * collection.length)]
 
-
+export default {
+  randomArrayItem
 }
