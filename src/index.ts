@@ -1,7 +1,5 @@
-function hello(a: any) {
-   return a
-}
+import Arrays from './modules/Arrays'
 
 module.exports = {
-   hello
+   Arrays
 }
